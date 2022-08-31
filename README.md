@@ -85,7 +85,6 @@ Di React, router membantu membuat dan menavigasi di antara berbagai URL yang mem
      </BrowserRouter>
     );
 ```
-Redux sebagai state management. Dengan menggunakan Redux maka kita cukup bikin satu state dan state itu bisa di akses di komponen manapun.
 
 # React Redux
 **Redux** adalah sebuah aplikasi state management. State management adalah cara untuk memfasilitasi komunikasi dan berbagai data lintas komponen. Ia berfungsi untuk melakukan perubahan state yang dibutuhkan oleh setiap fungsional yang ada di suatu aplikasi.
@@ -120,7 +119,7 @@ Ada 3 poin penting dalam redux :
 Store bertanggung jawab sebagai:
 - menyimpan keseluruhan state.
 - mengakses state dengan cara getState()
--menjalankan reducer untuk merubah state dengan cara dispatch(action).
+- menjalankan reducer untuk merubah state dengan cara dispatch(action).
 ``` 
     import { createStore } from 'redux'
     import reducer from './reducer'
